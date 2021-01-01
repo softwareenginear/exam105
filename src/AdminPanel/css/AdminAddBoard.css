@@ -1,0 +1,48 @@
+.add_board_main{
+    background-color: #e4e4e494;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_board_child{
+    width: 70%;
+    background-color: #fff;
+    min-height: 85vh;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+    margin: 50px 0;
+    padding: 30px 0;
+}
+form.board_form{
+    width: 60% !important;
+}
+.mybutton {
+	border: none !important;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff !important;
+    background: var(--info) !important;
+    font-weight: bolder;
+	font-size:17px;
+    padding:7px 25px !important;
+    border-radius: 5px !important;
+    outline: none !important;
+	text-decoration:none;
+    position: relative;
+    top: -2px;
+}
+.mybutton:hover {
+    position: relative;
+    top: 0;
+}
+.mybutton:active {
+	position:relative;
+    top: 3px;
+    box-shadow: none !important;
+}
+.datepicker_main .react-datepicker-wrapper{
+    width: 100%;
+}
+.datepicker_main .react-datepicker-wrapper input {
+    user-select: none;
+}
